@@ -1,0 +1,642 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Unknown language: 0x1E, 0x1 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_THA)
+#ifdef _WIN32
+LANGUAGE 0x1E, 0x1
+#pragma code_page(874)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON    DISCARDABLE     "res\\ico1.ico"
+IDI_MSGSYSTEM           ICON    DISCARDABLE     "res\\msgsyste.ico"
+IDI_MSGACTION           ICON    DISCARDABLE     "res\\msgactio.ico"
+IDI_HEAD17              ICON    DISCARDABLE     "res\\yagusa.ICO"
+IDI_HEAD18              ICON    DISCARDABLE     "res\\arngao.ICO"
+IDI_HEAD19              ICON    DISCARDABLE     "res\\gundam.ICO"
+IDI_HEAD20              ICON    DISCARDABLE     "res\\yoshie.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_SND_MYTURN          WAVE    DISCARDABLE     "res\\ohho.wav"
+IDR_SND_SHUFFLE         WAVE    DISCARDABLE     "res\\shuffle.wav"
+IDR_SND_DISCARD2        WAVE    DISCARDABLE     "res\\discard2.wav"
+IDR_SND_DISCARD1        WAVE    DISCARDABLE     "res\\discard1.wav"
+IDR_SND_CRASH           WAVE    DISCARDABLE     "res\\crash.wav"
+IDR_SND_POP             WAVE    DISCARDABLE     "res\\Pop.wav"
+IDR_SND_CLAPPING        WAVE    DISCARDABLE     "res\\Clapping.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CARD                BITMAP  DISCARDABLE     "res\\16_card01.bmp"
+#endif    // Unknown language: 0x1E, 0x1 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_JUBMOO              ICON    DISCARDABLE     "res\\jubmoo.ico"
+IDI_HEAD6               ICON    DISCARDABLE     "res\\iwamari.ico"
+IDI_HEAD5               ICON    DISCARDABLE     "res\\masao.ico"
+IDI_HEAD2               ICON    DISCARDABLE     "res\\nenechan.ico"
+IDI_NOOFWINNER          ICON    DISCARDABLE     "res\\noofwinn.ico"
+IDI_NOOFCHUAN           ICON    DISCARDABLE     "res\\noofchua.ico"
+IDI_NOOFPIG             ICON    DISCARDABLE     "res\\noofpig.ico"
+IDI_NOOFBIGCHUAN        ICON    DISCARDABLE     "res\\noofbigc.ico"
+IDI_NOBODY              ICON    DISCARDABLE     "res\\nobody.ico"
+IDI_ARROWB              ICON    DISCARDABLE     "res\\arrowb.ICO"
+IDI_POS4                ICON    DISCARDABLE     "res\\pos4.ICO"
+IDI_POS2                ICON    DISCARDABLE     "res\\pos2.ICO"
+IDI_POS3                ICON    DISCARDABLE     "res\\pos3.ICO"
+IDI_POS1                ICON    DISCARDABLE     "res\\pos1.ICO"
+IDI_START               ICON    DISCARDABLE     "res\\start.ico"
+IDI_EXIT                ICON    DISCARDABLE     "res\\exit.ico"
+IDI_HELP                ICON    DISCARDABLE     "res\\help.ico"
+IDI_INFO                ICON    DISCARDABLE     "res\\info.ico"
+IDI_JOIN                ICON    DISCARDABLE     "res\\join.ico"
+IDI_QUIT                ICON    DISCARDABLE     "res\\quit.ico"
+IDI_SETTING             ICON    DISCARDABLE     "res\\setting.ico"
+IDI_ABOUT               ICON    DISCARDABLE     "res\\about.ico"
+IDI_JMCONNECT           ICON    DISCARDABLE     "res\\jmconnec.ico"
+IDI_JMONLINE            ICON    DISCARDABLE     "res\\jmonline.ico"
+IDI_JMOFFLINE           ICON    DISCARDABLE     "res\\jmofflin.ico"
+IDI_JMCONNECT1          ICON    DISCARDABLE     "res\\jmconne1.ico"
+IDI_HEAD16              ICON    DISCARDABLE     "res\\rabbit.ICO"
+IDI_HEAD3               ICON    DISCARDABLE     "res\\bochan.ICO"
+IDI_HEAD4               ICON    DISCARDABLE     "res\\Kazama.ICO"
+IDI_HEAD8               ICON    DISCARDABLE     "res\\dukdik.ICO"
+IDI_HEAD9               ICON    DISCARDABLE     "res\\Actmask.ICO"
+IDI_HEAD10              ICON    DISCARDABLE     "res\\Hiroshi.ICO"
+IDI_HEAD11              ICON    DISCARDABLE     "res\\misae.ICO"
+IDI_HEAD7               ICON    DISCARDABLE     "res\\white.ICO"
+IDI_HEAD12              ICON    DISCARDABLE     "res\\yoshinga.ICO"
+IDI_HEAD1               ICON    DISCARDABLE     "res\\Shinchan.ICO"
+IDI_HEAD13              ICON    DISCARDABLE     "res\\matzusaka.ICO"
+IDI_HEAD14              ICON    DISCARDABLE     "res\\shinobu.ICO"
+IDI_HEAD15              ICON    DISCARDABLE     "res\\nanako.ICO"
+IDI_HEADCOM4            ICON    DISCARDABLE     "res\\headcom4.ICO"
+IDI_HEADCOM2            ICON    DISCARDABLE     "res\\headcom2.ICO"
+IDI_HEADCOM3            ICON    DISCARDABLE     "res\\headcom3.ICO"
+IDI_HEADCOM1            ICON    DISCARDABLE     "res\\headcom1.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKCARD            BITMAP  DISCARDABLE     "res\\jmcard.bmp"
+IDB_PLAYERDETAIL        BITMAP  DISCARDABLE     "res\\pd_wood.bmp"
+IDB_NUMBER              BITMAP  DISCARDABLE     "res\\number.bmp"
+IDB_JMLOGO              BITMAP  DISCARDABLE     "res\\logo.bmp"
+IDB_JMDANCE             BITMAP  DISCARDABLE     "res\\dance.bmp"
+IDB_BIGLOGO             BITMAP  DISCARDABLE     "res\\jmblogo4.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_POINT               CURSOR  DISCARDABLE     "res\\curpoint.cur"
+IDC_GRASP               CURSOR  DISCARDABLE     "res\\curgrasp.cur"
+IDC_CLICK               CURSOR  DISCARDABLE     "res\\curclick.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 0, 0, 206, 170
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "JubMoo+"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Ok",IDOK,62,151,82,15,BS_CENTER | BS_VCENTER
+    CTEXT           "JubMoo+   : On The Net",IDC_STATIC,66,13,121,10
+    CTEXT           "E-Mail",IDC_STATIC,18,125,33,10
+    CTEXT           "by Kasamsun ( Nohm , Tom :o)",IDC_STATIC,66,26,121,9
+    GROUPBOX        "",IDC_STATIC,4,3,195,63,0,WS_EX_TRANSPARENT
+    RTEXT           "Version :",IDC_STATIC,107,39,32,9
+    CTEXT           "For more information, please read on my homepage",
+                    IDC_STATIC,18,139,169,10
+    EDITTEXT        IDC_MY_EMAIL,55,123,139,12,ES_CENTER | ES_MULTILINE | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_TRANSPARENT | WS_EX_RIGHT
+    PUSHBUTTON      "http://members.xoom.com/kasamsun",IDC_MY_HOMEPAGE,10,
+                    105,186,15,BS_CENTER | BS_VCENTER | NOT WS_TABSTOP
+    ICON            IDI_JUBMOO,IDC_STATIC,28,26,20,20
+    CTEXT           "For all JubMoo+ Lovers, :o)  Hope u enjoy with this",
+                    IDC_STATIC,15,70,177,9
+    CTEXT           " version of JubMoo+ . Thanks for every suggestion . ",
+                    IDC_STATIC,10,81,186,9
+    LTEXT           "Feel free to contact me na ja~. (*^_^*)",IDC_STATIC,37,
+                    92,131,9
+    LTEXT           "_ID_",IDC_MSGID,169,51,24,11
+    LTEXT           "yyyy/mm/dd",IDC_BUILDDATE,93,51,41,11
+    LTEXT           "MsgID:",IDC_STATIC,139,51,25,11
+    LTEXT           "Build:",IDC_STATIC,69,51,20,11
+    LTEXT           "_VER_",IDC_VERSION,144,39,24,11
+END
+
+IDD_HELP DIALOG DISCARDABLE  0, 0, 340, 212
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Help"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Ok",IDOK,127,196,68,14,BS_CENTER | BS_VCENTER | 
+                    WS_CLIPSIBLINGS
+    CTEXT           "For someone who don't know how to play. You can ask any other ones :oP",
+                    IDC_STATIC,47,5,257,9
+    ICON            IDI_JUBMOO,IDC_STATIC,19,4,20,20,WS_CLIPSIBLINGS
+    LTEXT           "Score =",IDC_STATIC,127,183,27,10
+    LTEXT           "'Chuan' = Getting all heart cards",IDC_STATIC,229,140,
+                    104,9
+    RTEXT           "'Big Chuan' = Getting all cards",IDC_STATIC,206,124,101,
+                    9
+    RTEXT           "'Moo+' = Loser ->",IDC_STATIC,235,155,64,9
+    LTEXT           "'Lead' = Discarding at first",IDC_STATIC,234,181,95,9
+    LTEXT           "'Yad' = Giving any card to other one",IDC_STATIC,213,
+                    194,117,9
+    LTEXT           "1000",IDC_TESTSCORE,160,181,33,12
+    ICON            IDI_NOOFCHUAN,IDC_STATIC,205,135,20,20
+    ICON            IDI_NOOFBIGCHUAN,IDC_STATIC,310,120,20,20
+    GROUPBOX        "JubMoo+ Vocab.",IDC_STATIC,200,110,137,98
+    ICON            IDI_NOOFPIG,IDC_STATIC,304,153,20,20
+    LTEXT           "<- Winner",IDC_STATIC,233,168,56,9
+    ICON            IDI_NOOFWINNER,IDC_STATIC,208,163,20,20
+    CTEXT           "Score Tester",IDC_STATIC,7,28,51,10
+    ICON            IDI_JMONLINE,IDC_STATIC,170,79,20,20
+    ICON            IDI_JMOFFLINE,IDC_STATIC,272,79,20,20
+    LTEXT           "->Online",IDC_STATIC,193,84,37,10
+    LTEXT           "->Offline",IDC_STATIC,294,84,42,11
+    ICON            IDI_START,IDC_STATIC,69,18,20,20
+    LTEXT           "To start as dealer. Everybody can join after this. Only dealer can set the game",
+                    IDC_STATIC,92,17,247,9
+    ICON            IDI_JOIN,IDC_STATIC,95,28,20,20
+    LTEXT           "* If 'Chuan', all hearts'll turn to positive",
+                    IDC_STATIC,2,202,123,9
+    LTEXT           "* If 'Big Chuan', Score is 1000",IDC_STATIC,2,192,123,9
+    LTEXT           "To join with any dealer player. Just enter dealer's IP Address",
+                    IDC_STATIC,117,28,195,9
+    ICON            IDI_QUIT,IDC_STATIC,122,39,20,20
+    LTEXT           "->Quit current game",IDC_STATIC,145,42,73,9
+    ICON            IDI_SETTING,IDC_STATIC,122,59,20,20
+    LTEXT           "->Change setting",IDC_STATIC,145,65,55,9
+    ICON            IDI_INFO,IDC_STATIC,231,60,20,20
+    LTEXT           "->Show statistics",IDC_STATIC,255,65,54,9
+    ICON            IDI_EXIT,IDC_STATIC,230,39,20,20
+    LTEXT           "->Exit program",IDC_STATIC,256,42,51,9
+    ICON            IDI_HELP,IDC_STATIC,205,49,20,20
+    ICON            IDI_ABOUT,IDC_STATIC,314,50,20,20
+    RTEXT           "This screen <-",IDC_STATIC,148,53,52,9
+    RTEXT           "About JubMoo+ <-",IDC_STATIC,252,53,61,9
+    LTEXT           "* If get nothing, Score is -50",IDC_STATIC,2,182,93,9
+END
+
+IDD_SETTING DIALOG DISCARDABLE  0, 0, 309, 237
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Setting"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,64,221,89,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,155,221,89,14,NOT WS_TABSTOP
+    LTEXT           "99",IDC_NOOFBIGCHUAN,94,44,10,10
+    ICON            IDI_NOOFBIGCHUAN,IDC_STATIC,68,39,20,20
+    ICON            IDI_NOOFCHUAN,IDC_STATIC,107,39,20,20
+    ICON            IDI_NOOFPIG,IDC_STATIC,107,61,20,20
+    ICON            IDI_NOOFWINNER,IDC_STATIC,68,61,20,20
+    PUSHBUTTON      "Reset",IDC_RESETSCORE,151,53,28,15,NOT WS_TABSTOP
+    PUSHBUTTON      "Select Face",IDC_SELECTFACE,64,15,22,19,BS_ICON | NOT 
+                    WS_TABSTOP
+    LTEXT           "99",IDC_NOOFCHUAN,131,44,10,10
+    LTEXT           "99",IDC_NOOFPIG,131,64,10,8
+    LTEXT           "99",IDC_NOOFWINNER,94,64,10,8
+    EDITTEXT        IDC_NAME,121,16,54,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "Name",IDC_STATIC,93,18,25,9
+    PUSHBUTTON      "1",IDC_SLOT1,32,26,13,11,NOT WS_TABSTOP
+    PUSHBUTTON      "2",IDC_SLOT2,32,37,13,11,NOT WS_TABSTOP
+    PUSHBUTTON      "3",IDC_SLOT3,32,48,13,11,NOT WS_TABSTOP
+    PUSHBUTTON      "4",IDC_SLOT4,32,59,13,11,NOT WS_TABSTOP
+    PUSHBUTTON      "5",IDC_SLOT5,32,70,13,11,NOT WS_TABSTOP
+    ICON            IDI_ARROWB,IDC_ARROWB,9,26,20,20
+    LTEXT           "Save Slot#",IDC_STATIC,9,15,36,8
+    EDITTEXT        IDC_OPPONENT1,221,81,52,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_OPPONENT2,221,95,52,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_OPPONENT3,221,109,52,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_OPPONENT4,221,123,52,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    EDITTEXT        IDC_BKGFILE,56,130,118,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    LTEXT           "Background",IDC_STATIC,9,131,45,10
+    EDITTEXT        IDC_CARDFILE,56,143,118,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    LTEXT           "Card",IDC_STATIC,9,144,45,10,WS_TABSTOP
+    EDITTEXT        IDC_DLGFILE,56,156,118,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    LTEXT           "Dialog",IDC_STATIC,9,157,45,10
+    EDITTEXT        IDC_NUMFILE,56,169,118,12,ES_AUTOHSCROLL | NOT 
+                    WS_TABSTOP
+    LTEXT           "Number",IDC_STATIC,9,170,45,10
+    EDITTEXT        IDC_PDFILE,56,182,118,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "Player Label",IDC_STATIC,9,183,45,10
+    CONTROL         "Use cool control",IDC_USECOOLCTL,"Button",
+                    BS_AUTOCHECKBOX,14,101,67,11
+    CONTROL         "Use fade background",IDC_USEFADEBKG,"Button",
+                    BS_AUTOCHECKBOX,93,101,88,11
+    CONTROL         "Use custom background",IDC_USECUSTOMBKG,"Button",
+                    BS_AUTOCHECKBOX,14,114,96,11
+    GROUPBOX        "My Player",IDC_STATIC,4,3,183,84
+    PUSHBUTTON      "->",IDC_SELECTBKG,174,130,10,12,NOT WS_TABSTOP
+    PUSHBUTTON      "->",IDC_SELECTCARD,174,143,10,12,NOT WS_TABSTOP
+    PUSHBUTTON      "->",IDC_SELECTDLG,174,156,10,12,NOT WS_TABSTOP
+    PUSHBUTTON      "->",IDC_SELECTNUM,174,169,10,12,NOT WS_TABSTOP
+    PUSHBUTTON      "->",IDC_SELECTPD,174,182,10,12,NOT WS_TABSTOP
+    PUSHBUTTON      "Fast",IDC_AIFAST,219,181,25,11,NOT WS_TABSTOP
+    PUSHBUTTON      "Normal",IDC_AINORMAL,219,192,25,11,NOT WS_TABSTOP
+    PUSHBUTTON      "Slow",IDC_AISLOW,219,203,25,11,NOT WS_TABSTOP
+    ICON            IDI_ARROWB,IDC_ARROWB2,197,189,20,20
+    ICON            IDI_ARROWB,IDC_ARROWB3,251,189,20,20
+    LTEXT           "AI Delay",IDC_STATIC,211,170,30,9
+    LTEXT           "Pick Delay",IDC_STATIC,262,170,37,9
+    PUSHBUTTON      "Fast",IDC_PICKFAST,273,181,25,11,NOT WS_TABSTOP
+    PUSHBUTTON      "Normal",IDC_PICKNORMAL,273,192,25,11,NOT WS_TABSTOP
+    PUSHBUTTON      "Slow",IDC_PICKSLOW,273,203,25,11,NOT WS_TABSTOP
+    GROUPBOX        "Game Speed",IDC_STATIC,192,161,112,58
+    ICON            IDI_HEADCOM4,IDC_STATIC,278,116,20,20
+    ICON            IDI_HEADCOM1,IDC_STATIC,196,81,20,20
+    ICON            IDI_HEADCOM2,IDC_STATIC,278,88,20,20
+    ICON            IDI_HEADCOM3,IDC_STATIC,196,109,20,20
+    EDITTEXT        IDC_DEFCHATMSG,199,13,98,53,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | NOT WS_TABSTOP
+    LTEXT           "99",IDC_NOOFGAMEPLAY2,94,72,10,10
+    LTEXT           "99",IDC_NOOFGAMEPLAY,131,72,10,10
+    GROUPBOX        "Default Chat Message",IDC_STATIC,192,3,112,66
+    PUSHBUTTON      "Reset computer's score",IDC_RESETCOMPSCORE,202,140,93,
+                    14
+    GROUPBOX        "Opponent Name",IDC_STATIC,192,71,112,88
+    CONTROL         "Sound Effect",IDC_USESOUND,"Button",BS_AUTOCHECKBOX,26,
+                    201,67,11
+    CONTROL         "Alarm when discard",IDC_ALARMTURN,"Button",
+                    BS_AUTOCHECKBOX,102,201,76,11
+    GROUPBOX        "Environment",IDC_STATIC,3,89,184,130
+END
+
+IDD_INFO DIALOG DISCARDABLE  0, 0, 285, 175
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Game Information"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "",IDC_CHART,7,33,271,122
+    PUSHBUTTON      "OK",IDOK,100,159,84,14
+    LTEXT           "Game Score",IDC_STATIC,5,17,46,11
+    LTEXT           "Static",IDC_GAMESCORE,55,15,40,13
+    PUSHBUTTON      "Bar Chart",IDC_BARCHART,14,159,60,14
+    PUSHBUTTON      "Line Chart",IDC_LINECHART,211,159,60,14
+    LTEXT           "Game #",IDC_STATIC,5,3,30,11
+    LTEXT           "g.no",IDC_GAMENUM,38,0,21,14
+    LTEXT           "Swap J with Q's value, if Chuan",IDC_STATIC,116,17,107,
+                    10
+    LTEXT           "Not",IDC_SWAPJQ,99,17,12,10
+END
+
+IDD_NETSTAT DIALOGEX 0, 0, 266, 144
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Network Status"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,23,124,81,14
+    LTEXT           "My IP Address :",IDC_STATIC,44,5,54,10
+    LTEXT           "Status :",IDC_STATIC,43,22,30,9
+    LTEXT           "Client#1 :",IDC_STATIC,6,40,31,11
+    LTEXT           "Client#2 :",IDC_STATIC,6,60,31,12
+    LTEXT           "Client#3 :",IDC_STATIC,6,79,31,12
+    LTEXT           "Client#4 :",IDC_STATIC,6,98,31,12
+    LTEXT           "Client#5 :",IDC_STATIC,135,40,31,11
+    LTEXT           "Client#6 :",IDC_STATIC,135,60,31,12
+    LTEXT           "Client#7 :",IDC_STATIC,135,79,31,12
+    EDITTEXT        IDC_MYIP,132,5,124,12,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT1,69,40,60,12,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT2,69,60,60,12,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT3,69,79,60,12,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT4,69,98,60,12,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT5,200,40,60,12,ES_MULTILINE | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT6,200,60,60,12,ES_MULTILINE | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_CLIENT7,200,79,60,12,ES_MULTILINE | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+    ICON            IDI_JUBMOO,IDC_STATIC,10,9,21,20
+    LTEXT           "Idle",IDC_STATUS,79,22,126,9
+    LTEXT           "Port",IDC_STATIC,139,112,20,10
+    EDITTEXT        IDC_PORT,160,111,32,12,ES_AUTOHSCROLL | ES_NUMBER | NOT 
+                    WS_TABSTOP
+    LTEXT           "* Default is 6400",IDC_STATIC,199,112,58,9
+    CONTROL         "NetworkEventLog",IDC_NETLOG,"Button",BS_AUTOCHECKBOX,
+                    139,126,117,10
+    GROUPBOX        "Network setting",IDC_STATIC,134,99,128,41
+END
+
+IDD_ROUNDRESULT DIALOG DISCARDABLE  0, 0, 331, 158
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Round Result"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Continue",IDOK,270,119,58,26
+    ICON            IDI_ARROWB,IDC_STATIC,270,35,21,20
+    ICON            IDI_ARROWB,IDC_STATIC,270,63,21,20
+    ICON            IDI_ARROWB,IDC_STATIC,270,91,21,20
+    ICON            IDI_ARROWB,IDC_STATIC,270,7,21,20
+    RTEXT           "Static",IDC_SCORE1,292,10,36,13
+    RTEXT           "Static",IDC_RSCORE1,32,11,30,13
+    RTEXT           "Static",IDC_SCORE2,292,38,36,13
+    RTEXT           "Static",IDC_RSCORE2,32,39,30,13
+    RTEXT           "Static",IDC_SCORE3,292,66,36,13
+    RTEXT           "Static",IDC_RSCORE3,32,67,30,13
+    RTEXT           "Static",IDC_SCORE4,292,94,36,13
+    RTEXT           "Static",IDC_RSCORE4,32,95,30,13
+END
+
+IDD_JOIN DIALOG DISCARDABLE  0, 0, 186, 65
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Join JubMoo+ Dealer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",IDOK,41,48,50,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,93,48,50,14,NOT WS_TABSTOP
+    EDITTEXT        IDC_JOINIP,70,18,109,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    ICON            IDI_JUBMOO,IDC_STATIC,5,4,20,20
+    LTEXT           "Enter JubMoo+ Dealer 's IP Address",IDC_STATIC,31,5,135,
+                    11
+    LTEXT           "** For example, 203.149.2.51",IDC_STATIC,63,34,98,9
+    ICON            IDI_ARROWB,IDC_STATIC,47,15,20,20
+END
+
+IDD_FACESELECT DIALOGEX 0, 0, 96, 114
+STYLE DS_MODALFRAME | WS_POPUP
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING | WS_EX_LEFTSCROLLBAR
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Button1",IDC_HEAD1,0,0,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDCANCEL,0,100,96,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD2,24,0,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD3,48,0,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD4,72,0,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD5,0,20,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD6,24,20,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD7,48,20,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD8,72,20,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD9,0,40,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD10,24,40,24,20,BS_ICON | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD11,48,40,24,20,BS_ICON | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD12,72,40,24,20,BS_ICON | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD13,0,60,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD14,24,60,24,20,BS_ICON | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD15,48,60,24,20,BS_ICON | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD16,72,60,24,20,BS_ICON | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD17,0,80,24,20,BS_ICON | NOT WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD18,24,80,24,20,BS_ICON | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD19,48,80,24,20,BS_ICON | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_HEAD20,72,80,24,20,BS_ICON | NOT 
+                    WS_TABSTOP
+END
+
+IDD_BMPPREVIEW DIALOGEX 0, 0, 141, 98
+STYLE DS_MODALFRAME | WS_POPUP
+EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING | WS_EX_LEFTSCROLLBAR
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDOK,29,83,82,15,NOT WS_TABSTOP
+    CTEXT           "Picture Preview",IDC_STATIC,43,0,54,9
+    CONTROL         "",IDC_BMPPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_REALSIZEIMAGE | SS_SUNKEN,3,9,135,71
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Tom\0"
+            VALUE "FileDescription", "Jubmoo\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Jubmoo\0"
+            VALUE "LegalCopyright", "Copyright _ 1998\0"
+            VALUE "OriginalFilename", "Jubmoo.exe\0"
+            VALUE "ProductName", "Tom Jubmoo\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ROUNDRESULT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 328
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    1                       "2 Club"
+    2                       "3 Club"
+    3                       "4 Club"
+    4                       "5 Club"
+    5                       "6 Club"
+    6                       "7 Club"
+    7                       "8 Club"
+    8                       "9 Club"
+    9                       "10 Club = 50, x2"
+    10                      "J Club"
+    11                      "Q Club"
+    12                      "K Club"
+    13                      "A Club"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    17                      "2 Diamond"
+    18                      "3 Diamond"
+    19                      "4 Diamond"
+    20                      "5 Diamond"
+    21                      "6 Diamond"
+    22                      "7 Diamond"
+    23                      "8 Diamond"
+    24                      "9 Diamond"
+    25                      "10 Diamond"
+    26                      "J Diamond = 100"
+    27                      "Q Diamond"
+    28                      "K Diamond"
+    29                      "A Diamond"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    33                      "2 Spade"
+    34                      "3 Spade"
+    35                      "4 Spade"
+    36                      "5 Spade"
+    37                      "6 Spade"
+    38                      "7 Spade"
+    39                      "8 Spade"
+    40                      "9 Spade"
+    41                      "10 Spade"
+    42                      "J Spade"
+    43                      "Q Spade = -100"
+    44                      "K Spade"
+    45                      "A Spade"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    49                      "2 Heart = -2"
+    50                      "3 Heart = -3"
+    51                      "4 Heart = -4"
+    52                      "5 Heart = -5"
+    53                      "6 Heart = -6"
+    54                      "7 Heart = -7"
+    55                      "8 Heart = -8"
+    56                      "9 Heart = -9"
+    57                      "10 Heart = -10"
+    58                      "J Heart = -20"
+    59                      "Q Heart = -30"
+    60                      "K Heart = -40"
+    61                      "A Heart = -50"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

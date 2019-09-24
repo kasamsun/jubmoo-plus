@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Jubmoo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\kasam\AppData\Local\Temp\RSPE71.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "STRICT" /Fp".\Release/Jubmoo.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\workspace\vs6\jubmoo-plus\AboutDlg.cpp"
+"D:\workspace\vs6\jubmoo-plus\BmpDigit.cpp"
+"D:\workspace\vs6\jubmoo-plus\ChatEdit.cpp"
+"D:\workspace\vs6\jubmoo-plus\CommonAI.cpp"
+"D:\workspace\vs6\jubmoo-plus\EndGameWnd.cpp"
+"D:\workspace\vs6\jubmoo-plus\HelpDlg.cpp"
+"D:\workspace\vs6\jubmoo-plus\InfoDlg.cpp"
+"D:\workspace\vs6\jubmoo-plus\JMComm.cpp"
+"D:\workspace\vs6\jubmoo-plus\JMKnowledgeBase.cpp"
+"D:\workspace\vs6\jubmoo-plus\JMPing.cpp"
+"D:\workspace\vs6\jubmoo-plus\Jubmoo.cpp"
+"D:\workspace\vs6\jubmoo-plus\JubmooAI.cpp"
+"D:\workspace\vs6\jubmoo-plus\JubmooApp.cpp"
+"D:\workspace\vs6\jubmoo-plus\JubmooWnd.cpp"
+"D:\workspace\vs6\jubmoo-plus\MsgPopupWnd.cpp"
+"D:\workspace\vs6\jubmoo-plus\kswafx\src\MyWinsock.cpp"
+"D:\workspace\vs6\jubmoo-plus\NetStatDlg.cpp"
+"D:\workspace\vs6\jubmoo-plus\Player.cpp"
+"D:\workspace\vs6\jubmoo-plus\PlayerDetailWnd.cpp"
+"D:\workspace\vs6\jubmoo-plus\PlayerWnd.cpp"
+"D:\workspace\vs6\jubmoo-plus\RoundDlg.cpp"
+"D:\workspace\vs6\jubmoo-plus\ScoreChart.cpp"
+"D:\workspace\vs6\jubmoo-plus\SettingDlg.cpp"
+"D:\workspace\vs6\jubmoo-plus\StartGameWnd.cpp"
+]
+Creating command line "cl.exe @C:\Users\kasam\AppData\Local\Temp\RSPE71.tmp" 
+Creating temporary file "C:\Users\kasam\AppData\Local\Temp\RSPE72.tmp" with contents
+[
+wsock32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib /nologo /subsystem:windows /incremental:no /pdb:".\Release/Jubmoo.pdb" /machine:I386 /out:".\Release/Jubmoo.exe" 
+".\Release\AboutDlg.obj"
+".\Release\BmpDigit.obj"
+".\Release\BmpPreviewDlg.obj"
+".\Release\Button.obj"
+".\Release\CardWnd.obj"
+".\Release\ChatEdit.obj"
+".\Release\CommonAI.obj"
+".\Release\Control.obj"
+".\Release\CoolButton.obj"
+".\Release\CoolDlg.obj"
+".\Release\CoolStatic.obj"
+".\Release\DCEx.obj"
+".\Release\Dialog.obj"
+".\Release\Edit.obj"
+".\Release\EndGameWnd.obj"
+".\Release\FaceSelectDlg.obj"
+".\Release\GenericClickWnd.obj"
+".\Release\GenericWnd.obj"
+".\Release\HelpDlg.obj"
+".\Release\IcmpPing.obj"
+".\Release\InfoDlg.obj"
+".\Release\JMComm.obj"
+".\Release\JMKnowledgeBase.obj"
+".\Release\JMPing.obj"
+".\Release\JoinDlg.obj"
+".\Release\Jubmoo.obj"
+".\Release\JubmooAI.obj"
+".\Release\JubmooApp.obj"
+".\Release\JubmooWnd.obj"
+".\Release\MainAfx.obj"
+".\Release\MsgPopupWnd.obj"
+".\Release\MyThread.obj"
+".\Release\MyWinsock.obj"
+".\Release\NetStatDlg.obj"
+".\Release\PickCardWnd.obj"
+".\Release\Player.obj"
+".\Release\PlayerDetailWnd.obj"
+".\Release\PlayerWnd.obj"
+".\Release\RegistryKey.obj"
+".\Release\RoundDlg.obj"
+".\Release\ScoreChart.obj"
+".\Release\SettingDlg.obj"
+".\Release\StartGameWnd.obj"
+".\Release\Static.obj"
+".\Release\Tooltip.obj"
+".\Release\Jubmoo.res"
+]
+Creating command line "link.exe @C:\Users\kasam\AppData\Local\Temp\RSPE72.tmp"
+<h3>Output Window</h3>
+Compiling...
+AboutDlg.cpp
+BmpDigit.cpp
+ChatEdit.cpp
+CommonAI.cpp
+EndGameWnd.cpp
+HelpDlg.cpp
+InfoDlg.cpp
+JMComm.cpp
+JMKnowledgeBase.cpp
+JMPing.cpp
+Jubmoo.cpp
+JubmooAI.cpp
+JubmooApp.cpp
+JubmooWnd.cpp
+MsgPopupWnd.cpp
+MyWinsock.cpp
+NetStatDlg.cpp
+Player.cpp
+PlayerDetailWnd.cpp
+PlayerWnd.cpp
+RoundDlg.cpp
+ScoreChart.cpp
+SettingDlg.cpp
+StartGameWnd.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Jubmoo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
