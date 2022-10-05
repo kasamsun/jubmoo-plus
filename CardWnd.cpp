@@ -1,5 +1,5 @@
 #include "CardWnd.h"
-#include "DCEx.h"
+#include "kswafx/DCEx.h"
 
 #include "resource.h"
 #include "CardNum.h"
@@ -173,7 +173,7 @@ C_CardWnd::~C_CardWnd()
 
 int C_CardWnd::PaintCard(HDC hDC,int x,int y,int nCardNum)
 {
-	static PixelBk[12][2] = { {0,0},{1,0},{0,1},
+	static int PixelBk[12][2] = { {0,0},{1,0},{0,1},
 							{70,0},{70,1},{69,0},
 							{0,94},{0,95},{1,95},
 							{70,95},{70,94},{69,95} };

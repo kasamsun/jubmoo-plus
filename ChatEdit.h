@@ -1,8 +1,8 @@
 #ifndef _C_CHATEDIT_H_
 #define _C_CHATEDIT_H_
 
-#include "Edit.h"
-#include "MyTempl.h"
+#include "kswafx/Edit.h"
+#include "kswafx/MyTempl.h"
 
 #define MAX_CHATLIMITTEXT		40
 class C_Wnd;

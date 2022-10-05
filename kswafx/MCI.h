@@ -3,7 +3,7 @@
 
 #include <windows.h>
 #include <mmsystem.h>
-#include <GenericWnd.h>
+#include "GenericWnd.h"
 
 class C_MCI : public C_GenericWnd
 {

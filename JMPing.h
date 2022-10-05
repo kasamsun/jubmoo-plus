@@ -1,7 +1,7 @@
 #ifndef _C_JMPING_H_
 #define _C_JMPING_H_
 
-#include "IcmpPing.h"
+#include "kswafx/IcmpPing.h"
 
 // ==========================================
 // IcmpPing need WSAStartup before use 

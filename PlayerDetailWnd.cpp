@@ -5,10 +5,10 @@
 #include "JubmooWnd.h"
 #include "PlayerWnd.h"
 #include "Player.h"
-#include "DCEx.h"
+#include "kswafx/DCEx.h"
 #include "BmpDigit.h"
 #include "Jubmoo.h"
-#include "Tooltip.h"
+#include "kswafx/Tooltip.h"
 
 #define PD_MOVE_TIMERID 6101
 #define PD_MOVE_TIMER 50

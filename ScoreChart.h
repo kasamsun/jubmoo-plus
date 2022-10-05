@@ -1,7 +1,7 @@
 #ifndef _C_SCORECHART_H_
 #define _C_SCORECHART_H_
 
-#include "GenericWnd.h"
+#include "kswafx/GenericWnd.h"
 
 #define BAR_CHART	1
 #define LINE_CHART	2

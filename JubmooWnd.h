@@ -13,8 +13,8 @@ enum { BUTTON_START,BUTTON_JOIN,BUTTON_QUIT,BUTTON_SETTING,BUTTON_INFO,
 #define MAX_JUBMOO_BUTTON   	8
 #define SUDDEN_DISCARDMODE		1
 
-#include "GenericWnd.h"
-#include "MyTempl.h"
+#include "kswafx/GenericWnd.h"
+#include "kswafx/MyTempl.h"
 
 class C_Jubmoo;
 class C_CoolButton;
@@ -27,7 +27,7 @@ class C_EndGameWnd;
 class C_SettingDlg;
 class C_Dialog;
 
-#include <Tooltip.h>
+#include "kswafx/Tooltip.h"
 #include "PickCardWnd.h"
 #include "StartGameWnd.h"
 

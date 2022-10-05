@@ -4,8 +4,8 @@
 #define ENDGAMEWND_WIDTH	640
 #define ENDGAMEWND_HEIGHT	240
 
-#include "GenericWnd.h"
-#include "MyTempl.h"
+#include "kswafx/GenericWnd.h"
+#include "kswafx/MyTempl.h"
 
 
 class C_Jubmoo;

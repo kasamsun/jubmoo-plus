@@ -1,7 +1,7 @@
 #ifndef _C_BMPPREVIEWDLG_H_
 #define _C_BMPPREVIEWDLG_H_
 
-#include "Dialog.h"
+#include "kswafx/Dialog.h"
 
 class C_BmpPreviewDlg : public C_Dialog
 {

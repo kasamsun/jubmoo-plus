@@ -7,7 +7,7 @@
 #include "PlayerWnd.h"
 #include "JubmooWnd.h"
 #include "Jubmoo.h"
-#include "CoolDlg.h"
+#include "kswafx/CoolDlg.h"
 
 extern HHOOK hCoolDlgHook;
 extern C_JubmooApp JubmooApp;

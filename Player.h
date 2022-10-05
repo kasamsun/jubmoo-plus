@@ -1,7 +1,7 @@
 #ifndef _C_PLAYER_H_
 #define _C_PLAYER_H_
 
-#include "MyTempl.h"
+#include "kswafx/MyTempl.h"
 #include "JubmooApp.h"
 
 #define MAX_PLAYER_NAME	16

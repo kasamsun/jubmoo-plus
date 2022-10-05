@@ -1,7 +1,7 @@
 #ifndef _C_FACESELECTDLG_H_
 #define _C_FACESELECTDLG_H_
 
-#include "Dialog.h"
+#include "kswafx/Dialog.h"
 
 class C_FaceSelectDlg : public C_Dialog
 {

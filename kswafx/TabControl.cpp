@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <commctrl.h>
 
-#include <TabControl.h>
+#include "TabControl.h"
 
 
 C_TabControl::C_TabControl() : C_Control()
@@ -30,7 +30,7 @@ BOOL C_TabControl::Create(const RECT& rect,C_Wnd* pParentWnd)
 	if ( m_hWnd == NULL ) return FALSE;
 	m_pParentWnd = pParentWnd;
 
-	m_hFont = (HFONT)SendMessage(m_hWnd,WM_GETFONT,0,0);
+	SendMessage(m_hWnd,WM_GETFONT,0,0);
 	return TRUE;
 }
 

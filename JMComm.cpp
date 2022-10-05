@@ -1492,7 +1492,7 @@ void C_JMComm::OnClose(int nErrCode)
 // ===================================================
 LRESULT C_JMComm::OnPaint(WPARAM ,LPARAM )
 {
-	static bBlink = TRUE;
+	static int bBlink = TRUE;
 	PAINTSTRUCT ps;
 	m_hDC = BeginPaint( m_hWnd, &ps );
 

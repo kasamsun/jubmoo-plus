@@ -224,7 +224,7 @@ LRESULT C_PickCardWnd::OnTimer(WPARAM,LPARAM)
 		ClientToScreen(m_hWnd,(LPPOINT)&rc.left);
 		ScreenToClient(GetParent(m_hWnd),(LPPOINT)&rc.left);
 
-		static nCount = 0;
+		static int nCount = 0;
 		int step[5] = {4,3,2,1,1};
 		if ( abs(m_OrgPoint.y-rc.top) > 18 ) // move up height
 		{

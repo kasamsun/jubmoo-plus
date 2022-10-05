@@ -7,7 +7,7 @@
 #define FACE_UP		0
 #define FACE_DOWN	1
 
-#include "GenericClickWnd.h"
+#include "kswafx/GenericClickWnd.h"
 
 class C_MsgPopupWnd;
 

@@ -1,7 +1,7 @@
 #ifndef _C_SETTINGDLG_H_
 #define _C_SETTINGDLG_H_
 
-#include "Dialog.h"
+#include "kswafx/Dialog.h"
 
 class C_JubmooWnd;
 

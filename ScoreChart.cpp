@@ -1,6 +1,6 @@
 #include "ScoreChart.h"
 
-#include "DCEx.h"
+#include "kswafx/DCEx.h"
 #include <stdio.h>
 #include "resource.h"
 #include "JubmooWnd.h"

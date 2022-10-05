@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{BC636D67-ACE4-4F3A-AA10-A98001A96B2C}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.32203.90</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Debug/Jubmoo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>comctl32.lib;odbc32.lib;odbccp32.lib;wsock32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/Jubmoo.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/Jubmoo.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/Jubmoo.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x041e</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Release/Jubmoo.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>comctl32.lib;odbc32.lib;odbccp32.lib;wsock32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/Jubmoo.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/Jubmoo.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/Jubmoo.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x041e</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp" />
+    <ClCompile Include="BmpDigit.cpp" />
+    <ClCompile Include="BmpPreviewDlg.cpp" />
+    <ClCompile Include="CardWnd.cpp" />
+    <ClCompile Include="ChatEdit.cpp" />
+    <ClCompile Include="CommonAI.cpp" />
+    <ClCompile Include="EndGameWnd.cpp" />
+    <ClCompile Include="FaceSelectDlg.cpp" />
+    <ClCompile Include="HelpDlg.cpp" />
+    <ClCompile Include="InfoDlg.cpp" />
+    <ClCompile Include="JMComm.cpp" />
+    <ClCompile Include="JMKnowledgeBase.cpp" />
+    <ClCompile Include="JMPing.cpp" />
+    <ClCompile Include="JoinDlg.cpp" />
+    <ClCompile Include="Jubmoo.cpp" />
+    <ClCompile Include="JubmooAI.cpp" />
+    <ClCompile Include="JubmooApp.cpp" />
+    <ClCompile Include="JubmooWnd.cpp" />
+    <ClCompile Include="kswafx\Button.cpp" />
+    <ClCompile Include="kswafx\Control.cpp" />
+    <ClCompile Include="kswafx\CoolButton.cpp" />
+    <ClCompile Include="kswafx\CoolDlg.cpp" />
+    <ClCompile Include="kswafx\CoolStatic.cpp" />
+    <ClCompile Include="kswafx\DCEx.cpp" />
+    <ClCompile Include="kswafx\Dialog.cpp" />
+    <ClCompile Include="kswafx\Edit.cpp" />
+    <ClCompile Include="kswafx\GenericClickWnd.cpp" />
+    <ClCompile Include="kswafx\GenericWnd.cpp" />
+    <ClCompile Include="kswafx\IcmpPing.cpp" />
+    <ClCompile Include="kswafx\MainAfx.cpp" />
+    <ClCompile Include="kswafx\MCI.cpp" />
+    <ClCompile Include="kswafx\MyThread.cpp" />
+    <ClCompile Include="kswafx\MyWinsock.cpp" />
+    <ClCompile Include="kswafx\RegistryKey.cpp" />
+    <ClCompile Include="kswafx\Static.cpp" />
+    <ClCompile Include="kswafx\TabControl.cpp" />
+    <ClCompile Include="kswafx\Tooltip.cpp" />
+    <ClCompile Include="MsgPopupWnd.cpp" />
+    <ClCompile Include="NetStatDlg.cpp" />
+    <ClCompile Include="PickCardWnd.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerDetailWnd.cpp" />
+    <ClCompile Include="PlayerWnd.cpp" />
+    <ClCompile Include="RoundDlg.cpp" />
+    <ClCompile Include="ScoreChart.cpp" />
+    <ClCompile Include="SettingDlg.cpp" />
+    <ClCompile Include="StartGameWnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Jubmoo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h" />
+    <ClInclude Include="BmpDigit.h" />
+    <ClInclude Include="BmpPreviewDlg.h" />
+    <ClInclude Include="CardWnd.h" />
+    <ClInclude Include="ChatEdit.h" />
+    <ClInclude Include="CommonAI.h" />
+    <ClInclude Include="EndGameWnd.h" />
+    <ClInclude Include="FaceSelectDlg.h" />
+    <ClInclude Include="HelpDlg.h" />
+    <ClInclude Include="InfoDlg.h" />
+    <ClInclude Include="JMComm.h" />
+    <ClInclude Include="JMKnowledgeBase.h" />
+    <ClInclude Include="JMPing.h" />
+    <ClInclude Include="JoinDlg.h" />
+    <ClInclude Include="Jubmoo.h" />
+    <ClInclude Include="JubmooAI.h" />
+    <ClInclude Include="JubmooApp.h" />
+    <ClInclude Include="JubmooCard.h" />
+    <ClInclude Include="JubmooWnd.h" />
+    <ClInclude Include="kswafx\Button.h" />
+    <ClInclude Include="kswafx\Control.h" />
+    <ClInclude Include="kswafx\CoolButton.h" />
+    <ClInclude Include="kswafx\CoolDlg.h" />
+    <ClInclude Include="kswafx\CoolStatic.h" />
+    <ClInclude Include="kswafx\dcex.h" />
+    <ClInclude Include="kswafx\Dialog.h" />
+    <ClInclude Include="kswafx\Edit.h" />
+    <ClInclude Include="kswafx\GenericClickWnd.h" />
+    <ClInclude Include="kswafx\GenericWnd.h" />
+    <ClInclude Include="kswafx\IcmpPing.h" />
+    <ClInclude Include="kswafx\MainAfx.h" />
+    <ClInclude Include="kswafx\MCI.h" />
+    <ClInclude Include="kswafx\MyTempl.h" />
+    <ClInclude Include="kswafx\MyThread.h" />
+    <ClInclude Include="kswafx\MyWinsock.h" />
+    <ClInclude Include="kswafx\RegistryKey.h" />
+    <ClInclude Include="kswafx\Static.h" />
+    <ClInclude Include="kswafx\TabControl.h" />
+    <ClInclude Include="kswafx\Tooltip.h" />
+    <ClInclude Include="MsgPopupWnd.h" />
+    <ClInclude Include="NetStatDlg.h" />
+    <ClInclude Include="PickCardWnd.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerDetailWnd.h" />
+    <ClInclude Include="PlayerWnd.h" />
+    <ClInclude Include="RoundDlg.h" />
+    <ClInclude Include="ScoreChart.h" />
+    <ClInclude Include="SettingDlg.h" />
+    <ClInclude Include="StartGameWnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\16_card01.bmp" />
+    <Image Include="res\bmp1.bmp" />
+    <Image Include="res\bmp10.bmp" />
+    <Image Include="res\bmp11.bmp" />
+    <Image Include="res\bmp12.bmp" />
+    <Image Include="res\bmp13.bmp" />
+    <Image Include="res\bmp14.bmp" />
+    <Image Include="res\bmp15.bmp" />
+    <Image Include="res\bmp16.bmp" />
+    <Image Include="res\bmp17.bmp" />
+    <Image Include="res\bmp18.bmp" />
+    <Image Include="res\bmp19.bmp" />
+    <Image Include="res\bmp2.bmp" />
+    <Image Include="res\bmp20.bmp" />
+    <Image Include="res\bmp21.bmp" />
+    <Image Include="res\bmp22.bmp" />
+    <Image Include="res\bmp23.bmp" />
+    <Image Include="res\bmp24.bmp" />
+    <Image Include="res\bmp25.bmp" />
+    <Image Include="res\bmp26.bmp" />
+    <Image Include="res\bmp27.bmp" />
+    <Image Include="res\bmp28.bmp" />
+    <Image Include="res\bmp29.bmp" />
+    <Image Include="res\bmp3.bmp" />
+    <Image Include="res\bmp30.bmp" />
+    <Image Include="res\bmp31.bmp" />
+    <Image Include="res\bmp32.bmp" />
+    <Image Include="res\bmp33.bmp" />
+    <Image Include="res\bmp34.bmp" />
+    <Image Include="res\bmp35.bmp" />
+    <Image Include="res\bmp36.bmp" />
+    <Image Include="res\bmp37.bmp" />
+    <Image Include="res\bmp38.bmp" />
+    <Image Include="res\bmp39.bmp" />
+    <Image Include="res\bmp4.bmp" />
+    <Image Include="res\bmp40.bmp" />
+    <Image Include="res\bmp41.bmp" />
+    <Image Include="res\bmp42.bmp" />
+    <Image Include="res\bmp43.bmp" />
+    <Image Include="res\bmp44.bmp" />
+    <Image Include="res\bmp45.bmp" />
+    <Image Include="res\bmp46.bmp" />
+    <Image Include="res\bmp47.bmp" />
+    <Image Include="res\bmp48.bmp" />
+    <Image Include="res\bmp49.bmp" />
+    <Image Include="res\bmp5.bmp" />
+    <Image Include="res\bmp50.bmp" />
+    <Image Include="res\bmp51.bmp" />
+    <Image Include="res\bmp52.bmp" />
+    <Image Include="res\bmp6.bmp" />
+    <Image Include="res\bmp7.bmp" />
+    <Image Include="res\bmp8.bmp" />
+    <Image Include="res\bmp9.bmp" />
+    <Image Include="res\dance.bmp" />
+    <Image Include="res\jmblogo4.bmp" />
+    <Image Include="res\jmcard.bmp" />
+    <Image Include="res\logo.bmp" />
+    <Image Include="res\abount.ico" />
+    <Image Include="res\Actmask.ICO" />
+    <Image Include="res\arngao.ICO" />
+    <Image Include="res\arrowb.ICO" />
+    <Image Include="res\bochan.ICO" />
+    <Image Include="res\dukdik.ICO" />
+    <Image Include="res\exit.ico" />
+    <Image Include="res\gundam.ICO" />
+    <Image Include="res\headcom1.ico" />
+    <Image Include="res\headcom2.ICO" />
+    <Image Include="res\headcom3.ICO" />
+    <Image Include="res\headcom4.ICO" />
+    <Image Include="res\headcom5.ICO" />
+    <Image Include="res\headcom6.ICO" />
+    <Image Include="res\help.ico" />
+    <Image Include="res\Hiroshi.ICO" />
+    <Image Include="res\ico1.ico" />
+    <Image Include="res\info.ico" />
+    <Image Include="res\iwamari.ico" />
+    <Image Include="res\jmconne1.ico" />
+    <Image Include="res\jmconnec.ico" />
+    <Image Include="res\jmofflin.ico" />
+    <Image Include="res\jmonline.ico" />
+    <Image Include="res\ico00007.ico" />
+    <Image Include="res\join.ico" />
+    <Image Include="res\jubmoo.ico" />
+    <Image Include="res\Kazama.ICO" />
+    <Image Include="res\masao.ico" />
+    <Image Include="res\matzusaka.ICO" />
+    <Image Include="res\misae.ICO" />
+    <Image Include="res\msgactio.ico" />
+    <Image Include="res\msgsyste.ico" />
+    <Image Include="res\nanako.ICO" />
+    <Image Include="res\nenechan.ico" />
+    <Image Include="res\nobody.ico" />
+    <Image Include="res\noofbigc.ico" />
+    <Image Include="res\noofchua.ico" />
+    <Image Include="res\noofpig.ico" />
+    <Image Include="res\noofwinn.ico" />
+    <Image Include="res\pos1.ICO" />
+    <Image Include="res\pos2.ICO" />
+    <Image Include="res\pos3.ICO" />
+    <Image Include="res\pos4.ICO" />
+    <Image Include="res\quit.ico" />
+    <Image Include="res\rabbit.ICO" />
+    <Image Include="res\setting.ico" />
+    <Image Include="res\Shinchan.ICO" />
+    <Image Include="res\shinobu.ICO" />
+    <Image Include="res\start.ico" />
+    <Image Include="res\white.ICO" />
+    <Image Include="res\yagusa.ICO" />
+    <Image Include="res\yoshie.ICO" />
+    <Image Include="res\yoshinga.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\curclick.cur" />
+    <None Include="res\curgrasp.cur" />
+    <None Include="res\curpoint.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Clapping.wav" />
+    <Media Include="res\crash.wav" />
+    <Media Include="res\discard1.wav" />
+    <Media Include="res\discard2.wav" />
+    <Media Include="res\ohho.wav" />
+    <Media Include="res\Pop.wav" />
+    <Media Include="res\shuffle.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

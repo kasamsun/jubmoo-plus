@@ -1,7 +1,7 @@
 #ifndef _C_NETSTATDLG_H_
 #define _C_NETSTATDLG_H_
 
-#include "Dialog.h"
+#include "kswafx/Dialog.h"
 class C_JMComm;
 class C_PlayerWnd;
 

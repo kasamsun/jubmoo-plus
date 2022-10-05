@@ -7,7 +7,7 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+#include <windows.h>
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -151,29 +151,29 @@ CAPTION "JubMoo+"
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     PUSHBUTTON      "Ok",IDOK,62,151,82,15,BS_CENTER | BS_VCENTER
-    CTEXT           "JubMoo+   : On The Net",IDC_STATIC,66,13,121,10
-    CTEXT           "E-Mail",IDC_STATIC,18,125,33,10
-    CTEXT           "by Kasamsun ( Nohm , Tom :o)",IDC_STATIC,66,26,121,9
-    GROUPBOX        "",IDC_STATIC,4,3,195,63,0,WS_EX_TRANSPARENT
-    RTEXT           "Version :",IDC_STATIC,107,39,32,9
+    CTEXT           "JubMoo+   : On The Net",-1,66,13,121,10
+    CTEXT           "E-Mail",-1,18,125,33,10
+    CTEXT           "by Kasamsun ( Nohm , Tom :o)",-1,66,26,121,9
+    GROUPBOX        "",-1,4,3,195,63,0,WS_EX_TRANSPARENT
+    RTEXT           "Version :",-1,107,39,32,9
     CTEXT           "For more information, please read on my homepage",
-                    IDC_STATIC,18,139,169,10
+                    -1,18,139,169,10
     EDITTEXT        IDC_MY_EMAIL,55,123,139,12,ES_CENTER | ES_MULTILINE | 
                     ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
                     WS_EX_TRANSPARENT | WS_EX_RIGHT
     PUSHBUTTON      "http://members.xoom.com/kasamsun",IDC_MY_HOMEPAGE,10,
                     105,186,15,BS_CENTER | BS_VCENTER | NOT WS_TABSTOP
-    ICON            IDI_JUBMOO,IDC_STATIC,28,26,20,20
+    ICON            IDI_JUBMOO,-1,28,26,20,20
     CTEXT           "For all JubMoo+ Lovers, :o)  Hope u enjoy with this",
-                    IDC_STATIC,15,70,177,9
+                    -1,15,70,177,9
     CTEXT           " version of JubMoo+ . Thanks for every suggestion . ",
-                    IDC_STATIC,10,81,186,9
-    LTEXT           "Feel free to contact me na ja~. (*^_^*)",IDC_STATIC,37,
+                    -1,10,81,186,9
+    LTEXT           "Feel free to contact me na ja~. (*^_^*)",-1,37,
                     92,131,9
     LTEXT           "_ID_",IDC_MSGID,169,51,24,11
     LTEXT           "yyyy/mm/dd",IDC_BUILDDATE,93,51,41,11
-    LTEXT           "MsgID:",IDC_STATIC,139,51,25,11
-    LTEXT           "Build:",IDC_STATIC,69,51,20,11
+    LTEXT           "MsgID:",-1,139,51,25,11
+    LTEXT           "Build:",-1,69,51,20,11
     LTEXT           "_VER_",IDC_VERSION,144,39,24,11
 END
 
@@ -185,51 +185,51 @@ BEGIN
     PUSHBUTTON      "Ok",IDOK,127,196,68,14,BS_CENTER | BS_VCENTER | 
                     WS_CLIPSIBLINGS
     CTEXT           "For someone who don't know how to play. You can ask any other ones :oP",
-                    IDC_STATIC,47,5,257,9
-    ICON            IDI_JUBMOO,IDC_STATIC,19,4,20,20,WS_CLIPSIBLINGS
-    LTEXT           "Score =",IDC_STATIC,127,183,27,10
-    LTEXT           "'Chuan' = Getting all heart cards",IDC_STATIC,229,140,
+                    -1,47,5,257,9
+    ICON            IDI_JUBMOO,-1,19,4,20,20,WS_CLIPSIBLINGS
+    LTEXT           "Score =",-1,127,183,27,10
+    LTEXT           "'Chuan' = Getting all heart cards",-1,229,140,
                     104,9
-    RTEXT           "'Big Chuan' = Getting all cards",IDC_STATIC,206,124,101,
+    RTEXT           "'Big Chuan' = Getting all cards",-1,206,124,101,
                     9
-    RTEXT           "'Moo+' = Loser ->",IDC_STATIC,235,155,64,9
-    LTEXT           "'Lead' = Discarding at first",IDC_STATIC,234,181,95,9
-    LTEXT           "'Yad' = Giving any card to other one",IDC_STATIC,213,
+    RTEXT           "'Moo+' = Loser ->",-1,235,155,64,9
+    LTEXT           "'Lead' = Discarding at first",-1,234,181,95,9
+    LTEXT           "'Yad' = Giving any card to other one",-1,213,
                     194,117,9
     LTEXT           "1000",IDC_TESTSCORE,160,181,33,12
-    ICON            IDI_NOOFCHUAN,IDC_STATIC,205,135,20,20
-    ICON            IDI_NOOFBIGCHUAN,IDC_STATIC,310,120,20,20
-    GROUPBOX        "JubMoo+ Vocab.",IDC_STATIC,200,110,137,98
-    ICON            IDI_NOOFPIG,IDC_STATIC,304,153,20,20
-    LTEXT           "<- Winner",IDC_STATIC,233,168,56,9
-    ICON            IDI_NOOFWINNER,IDC_STATIC,208,163,20,20
-    CTEXT           "Score Tester",IDC_STATIC,7,28,51,10
-    ICON            IDI_JMONLINE,IDC_STATIC,170,79,20,20
-    ICON            IDI_JMOFFLINE,IDC_STATIC,272,79,20,20
-    LTEXT           "->Online",IDC_STATIC,193,84,37,10
-    LTEXT           "->Offline",IDC_STATIC,294,84,42,11
-    ICON            IDI_START,IDC_STATIC,69,18,20,20
+    ICON            IDI_NOOFCHUAN,-1,205,135,20,20
+    ICON            IDI_NOOFBIGCHUAN,-1,310,120,20,20
+    GROUPBOX        "JubMoo+ Vocab.",-1,200,110,137,98
+    ICON            IDI_NOOFPIG,-1,304,153,20,20
+    LTEXT           "<- Winner",-1,233,168,56,9
+    ICON            IDI_NOOFWINNER,-1,208,163,20,20
+    CTEXT           "Score Tester",-1,7,28,51,10
+    ICON            IDI_JMONLINE,-1,170,79,20,20
+    ICON            IDI_JMOFFLINE,-1,272,79,20,20
+    LTEXT           "->Online",-1,193,84,37,10
+    LTEXT           "->Offline",-1,294,84,42,11
+    ICON            IDI_START,-1,69,18,20,20
     LTEXT           "To start as dealer. Everybody can join after this. Only dealer can set the game",
-                    IDC_STATIC,92,17,247,9
-    ICON            IDI_JOIN,IDC_STATIC,95,28,20,20
+                    -1,92,17,247,9
+    ICON            IDI_JOIN,-1,95,28,20,20
     LTEXT           "* If 'Chuan', all hearts'll turn to positive",
-                    IDC_STATIC,2,202,123,9
-    LTEXT           "* If 'Big Chuan', Score is 1000",IDC_STATIC,2,192,123,9
+                    -1,2,202,123,9
+    LTEXT           "* If 'Big Chuan', Score is 1000",-1,2,192,123,9
     LTEXT           "To join with any dealer player. Just enter dealer's IP Address",
-                    IDC_STATIC,117,28,195,9
-    ICON            IDI_QUIT,IDC_STATIC,122,39,20,20
-    LTEXT           "->Quit current game",IDC_STATIC,145,42,73,9
-    ICON            IDI_SETTING,IDC_STATIC,122,59,20,20
-    LTEXT           "->Change setting",IDC_STATIC,145,65,55,9
-    ICON            IDI_INFO,IDC_STATIC,231,60,20,20
-    LTEXT           "->Show statistics",IDC_STATIC,255,65,54,9
-    ICON            IDI_EXIT,IDC_STATIC,230,39,20,20
-    LTEXT           "->Exit program",IDC_STATIC,256,42,51,9
-    ICON            IDI_HELP,IDC_STATIC,205,49,20,20
-    ICON            IDI_ABOUT,IDC_STATIC,314,50,20,20
-    RTEXT           "This screen <-",IDC_STATIC,148,53,52,9
-    RTEXT           "About JubMoo+ <-",IDC_STATIC,252,53,61,9
-    LTEXT           "* If get nothing, Score is -50",IDC_STATIC,2,182,93,9
+                    -1,117,28,195,9
+    ICON            IDI_QUIT,-1,122,39,20,20
+    LTEXT           "->Quit current game",-1,145,42,73,9
+    ICON            IDI_SETTING,-1,122,59,20,20
+    LTEXT           "->Change setting",-1,145,65,55,9
+    ICON            IDI_INFO,-1,231,60,20,20
+    LTEXT           "->Show statistics",-1,255,65,54,9
+    ICON            IDI_EXIT,-1,230,39,20,20
+    LTEXT           "->Exit program",-1,256,42,51,9
+    ICON            IDI_HELP,-1,205,49,20,20
+    ICON            IDI_ABOUT,-1,314,50,20,20
+    RTEXT           "This screen <-",-1,148,53,52,9
+    RTEXT           "About JubMoo+ <-",-1,252,53,61,9
+    LTEXT           "* If get nothing, Score is -50",-1,2,182,93,9
 END
 
 IDD_SETTING DIALOG DISCARDABLE  0, 0, 309, 237
@@ -240,10 +240,10 @@ BEGIN
     PUSHBUTTON      "OK",IDOK,64,221,89,14,NOT WS_TABSTOP
     PUSHBUTTON      "Cancel",IDCANCEL,155,221,89,14,NOT WS_TABSTOP
     LTEXT           "99",IDC_NOOFBIGCHUAN,94,44,10,10
-    ICON            IDI_NOOFBIGCHUAN,IDC_STATIC,68,39,20,20
-    ICON            IDI_NOOFCHUAN,IDC_STATIC,107,39,20,20
-    ICON            IDI_NOOFPIG,IDC_STATIC,107,61,20,20
-    ICON            IDI_NOOFWINNER,IDC_STATIC,68,61,20,20
+    ICON            IDI_NOOFBIGCHUAN,-1,68,39,20,20
+    ICON            IDI_NOOFCHUAN,-1,107,39,20,20
+    ICON            IDI_NOOFPIG,-1,107,61,20,20
+    ICON            IDI_NOOFWINNER,-1,68,61,20,20
     PUSHBUTTON      "Reset",IDC_RESETSCORE,151,53,28,15,NOT WS_TABSTOP
     PUSHBUTTON      "Select Face",IDC_SELECTFACE,64,15,22,19,BS_ICON | NOT 
                     WS_TABSTOP
@@ -251,14 +251,14 @@ BEGIN
     LTEXT           "99",IDC_NOOFPIG,131,64,10,8
     LTEXT           "99",IDC_NOOFWINNER,94,64,10,8
     EDITTEXT        IDC_NAME,121,16,54,13,ES_AUTOHSCROLL | NOT WS_TABSTOP
-    LTEXT           "Name",IDC_STATIC,93,18,25,9
+    LTEXT           "Name",-1,93,18,25,9
     PUSHBUTTON      "1",IDC_SLOT1,32,26,13,11,NOT WS_TABSTOP
     PUSHBUTTON      "2",IDC_SLOT2,32,37,13,11,NOT WS_TABSTOP
     PUSHBUTTON      "3",IDC_SLOT3,32,48,13,11,NOT WS_TABSTOP
     PUSHBUTTON      "4",IDC_SLOT4,32,59,13,11,NOT WS_TABSTOP
     PUSHBUTTON      "5",IDC_SLOT5,32,70,13,11,NOT WS_TABSTOP
     ICON            IDI_ARROWB,IDC_ARROWB,9,26,20,20
-    LTEXT           "Save Slot#",IDC_STATIC,9,15,36,8
+    LTEXT           "Save Slot#",-1,9,15,36,8
     EDITTEXT        IDC_OPPONENT1,221,81,52,12,ES_AUTOHSCROLL | NOT 
                     WS_TABSTOP
     EDITTEXT        IDC_OPPONENT2,221,95,52,12,ES_AUTOHSCROLL | NOT 
@@ -269,25 +269,25 @@ BEGIN
                     WS_TABSTOP
     EDITTEXT        IDC_BKGFILE,56,130,118,12,ES_AUTOHSCROLL | NOT 
                     WS_TABSTOP
-    LTEXT           "Background",IDC_STATIC,9,131,45,10
+    LTEXT           "Background",-1,9,131,45,10
     EDITTEXT        IDC_CARDFILE,56,143,118,12,ES_AUTOHSCROLL | NOT 
                     WS_TABSTOP
-    LTEXT           "Card",IDC_STATIC,9,144,45,10,WS_TABSTOP
+    LTEXT           "Card",-1,9,144,45,10,WS_TABSTOP
     EDITTEXT        IDC_DLGFILE,56,156,118,12,ES_AUTOHSCROLL | NOT 
                     WS_TABSTOP
-    LTEXT           "Dialog",IDC_STATIC,9,157,45,10
+    LTEXT           "Dialog",-1,9,157,45,10
     EDITTEXT        IDC_NUMFILE,56,169,118,12,ES_AUTOHSCROLL | NOT 
                     WS_TABSTOP
-    LTEXT           "Number",IDC_STATIC,9,170,45,10
+    LTEXT           "Number",-1,9,170,45,10
     EDITTEXT        IDC_PDFILE,56,182,118,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
-    LTEXT           "Player Label",IDC_STATIC,9,183,45,10
+    LTEXT           "Player Label",-1,9,183,45,10
     CONTROL         "Use cool control",IDC_USECOOLCTL,"Button",
                     BS_AUTOCHECKBOX,14,101,67,11
     CONTROL         "Use fade background",IDC_USEFADEBKG,"Button",
                     BS_AUTOCHECKBOX,93,101,88,11
     CONTROL         "Use custom background",IDC_USECUSTOMBKG,"Button",
                     BS_AUTOCHECKBOX,14,114,96,11
-    GROUPBOX        "My Player",IDC_STATIC,4,3,183,84
+    GROUPBOX        "My Player",-1,4,3,183,84
     PUSHBUTTON      "->",IDC_SELECTBKG,174,130,10,12,NOT WS_TABSTOP
     PUSHBUTTON      "->",IDC_SELECTCARD,174,143,10,12,NOT WS_TABSTOP
     PUSHBUTTON      "->",IDC_SELECTDLG,174,156,10,12,NOT WS_TABSTOP
@@ -298,30 +298,30 @@ BEGIN
     PUSHBUTTON      "Slow",IDC_AISLOW,219,203,25,11,NOT WS_TABSTOP
     ICON            IDI_ARROWB,IDC_ARROWB2,197,189,20,20
     ICON            IDI_ARROWB,IDC_ARROWB3,251,189,20,20
-    LTEXT           "AI Delay",IDC_STATIC,211,170,30,9
-    LTEXT           "Pick Delay",IDC_STATIC,262,170,37,9
+    LTEXT           "AI Delay",-1,211,170,30,9
+    LTEXT           "Pick Delay",-1,262,170,37,9
     PUSHBUTTON      "Fast",IDC_PICKFAST,273,181,25,11,NOT WS_TABSTOP
     PUSHBUTTON      "Normal",IDC_PICKNORMAL,273,192,25,11,NOT WS_TABSTOP
     PUSHBUTTON      "Slow",IDC_PICKSLOW,273,203,25,11,NOT WS_TABSTOP
-    GROUPBOX        "Game Speed",IDC_STATIC,192,161,112,58
-    ICON            IDI_HEADCOM4,IDC_STATIC,278,116,20,20
-    ICON            IDI_HEADCOM1,IDC_STATIC,196,81,20,20
-    ICON            IDI_HEADCOM2,IDC_STATIC,278,88,20,20
-    ICON            IDI_HEADCOM3,IDC_STATIC,196,109,20,20
+    GROUPBOX        "Game Speed",-1,192,161,112,58
+    ICON            IDI_HEADCOM4,-1,278,116,20,20
+    ICON            IDI_HEADCOM1,-1,196,81,20,20
+    ICON            IDI_HEADCOM2,-1,278,88,20,20
+    ICON            IDI_HEADCOM3,-1,196,109,20,20
     EDITTEXT        IDC_DEFCHATMSG,199,13,98,53,ES_MULTILINE | 
                     ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
                     WS_VSCROLL | NOT WS_TABSTOP
     LTEXT           "99",IDC_NOOFGAMEPLAY2,94,72,10,10
     LTEXT           "99",IDC_NOOFGAMEPLAY,131,72,10,10
-    GROUPBOX        "Default Chat Message",IDC_STATIC,192,3,112,66
+    GROUPBOX        "Default Chat Message",-1,192,3,112,66
     PUSHBUTTON      "Reset computer's score",IDC_RESETCOMPSCORE,202,140,93,
                     14
-    GROUPBOX        "Opponent Name",IDC_STATIC,192,71,112,88
+    GROUPBOX        "Opponent Name",-1,192,71,112,88
     CONTROL         "Sound Effect",IDC_USESOUND,"Button",BS_AUTOCHECKBOX,26,
                     201,67,11
     CONTROL         "Alarm when discard",IDC_ALARMTURN,"Button",
                     BS_AUTOCHECKBOX,102,201,76,11
-    GROUPBOX        "Environment",IDC_STATIC,3,89,184,130
+    GROUPBOX        "Environment",-1,3,89,184,130
 END
 
 IDD_INFO DIALOG DISCARDABLE  0, 0, 285, 175
@@ -331,13 +331,13 @@ FONT 8, "MS Sans Serif"
 BEGIN
     LTEXT           "",IDC_CHART,7,33,271,122
     PUSHBUTTON      "OK",IDOK,100,159,84,14
-    LTEXT           "Game Score",IDC_STATIC,5,17,46,11
+    LTEXT           "Game Score",-1,5,17,46,11
     LTEXT           "Static",IDC_GAMESCORE,55,15,40,13
     PUSHBUTTON      "Bar Chart",IDC_BARCHART,14,159,60,14
     PUSHBUTTON      "Line Chart",IDC_LINECHART,211,159,60,14
-    LTEXT           "Game #",IDC_STATIC,5,3,30,11
+    LTEXT           "Game #",-1,5,3,30,11
     LTEXT           "g.no",IDC_GAMENUM,38,0,21,14
-    LTEXT           "Swap J with Q's value, if Chuan",IDC_STATIC,116,17,107,
+    LTEXT           "Swap J with Q's value, if Chuan",-1,116,17,107,
                     10
     LTEXT           "Not",IDC_SWAPJQ,99,17,12,10
 END
@@ -348,15 +348,15 @@ CAPTION "Network Status"
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     PUSHBUTTON      "OK",IDOK,23,124,81,14
-    LTEXT           "My IP Address :",IDC_STATIC,44,5,54,10
-    LTEXT           "Status :",IDC_STATIC,43,22,30,9
-    LTEXT           "Client#1 :",IDC_STATIC,6,40,31,11
-    LTEXT           "Client#2 :",IDC_STATIC,6,60,31,12
-    LTEXT           "Client#3 :",IDC_STATIC,6,79,31,12
-    LTEXT           "Client#4 :",IDC_STATIC,6,98,31,12
-    LTEXT           "Client#5 :",IDC_STATIC,135,40,31,11
-    LTEXT           "Client#6 :",IDC_STATIC,135,60,31,12
-    LTEXT           "Client#7 :",IDC_STATIC,135,79,31,12
+    LTEXT           "My IP Address :",-1,44,5,54,10
+    LTEXT           "Status :",-1,43,22,30,9
+    LTEXT           "Client#1 :",-1,6,40,31,11
+    LTEXT           "Client#2 :",-1,6,60,31,12
+    LTEXT           "Client#3 :",-1,6,79,31,12
+    LTEXT           "Client#4 :",-1,6,98,31,12
+    LTEXT           "Client#5 :",-1,135,40,31,11
+    LTEXT           "Client#6 :",-1,135,60,31,12
+    LTEXT           "Client#7 :",-1,135,79,31,12
     EDITTEXT        IDC_MYIP,132,5,124,12,ES_MULTILINE | ES_READONLY | NOT 
                     WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
     EDITTEXT        IDC_CLIENT1,69,40,60,12,ES_MULTILINE | ES_READONLY | NOT 
@@ -373,15 +373,15 @@ BEGIN
                     NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
     EDITTEXT        IDC_CLIENT7,200,79,60,12,ES_MULTILINE | ES_READONLY | 
                     NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
-    ICON            IDI_JUBMOO,IDC_STATIC,10,9,21,20
+    ICON            IDI_JUBMOO,-1,10,9,21,20
     LTEXT           "Idle",IDC_STATUS,79,22,126,9
-    LTEXT           "Port",IDC_STATIC,139,112,20,10
+    LTEXT           "Port",-1,139,112,20,10
     EDITTEXT        IDC_PORT,160,111,32,12,ES_AUTOHSCROLL | ES_NUMBER | NOT 
                     WS_TABSTOP
-    LTEXT           "* Default is 6400",IDC_STATIC,199,112,58,9
+    LTEXT           "* Default is 6400",-1,199,112,58,9
     CONTROL         "NetworkEventLog",IDC_NETLOG,"Button",BS_AUTOCHECKBOX,
                     139,126,117,10
-    GROUPBOX        "Network setting",IDC_STATIC,134,99,128,41
+    GROUPBOX        "Network setting",-1,134,99,128,41
 END
 
 IDD_ROUNDRESULT DIALOG DISCARDABLE  0, 0, 331, 158
@@ -390,10 +390,10 @@ CAPTION "Round Result"
 FONT 8, "MS Sans Serif"
 BEGIN
     PUSHBUTTON      "Continue",IDOK,270,119,58,26
-    ICON            IDI_ARROWB,IDC_STATIC,270,35,21,20
-    ICON            IDI_ARROWB,IDC_STATIC,270,63,21,20
-    ICON            IDI_ARROWB,IDC_STATIC,270,91,21,20
-    ICON            IDI_ARROWB,IDC_STATIC,270,7,21,20
+    ICON            IDI_ARROWB,-1,270,35,21,20
+    ICON            IDI_ARROWB,-1,270,63,21,20
+    ICON            IDI_ARROWB,-1,270,91,21,20
+    ICON            IDI_ARROWB,-1,270,7,21,20
     RTEXT           "Static",IDC_SCORE1,292,10,36,13
     RTEXT           "Static",IDC_RSCORE1,32,11,30,13
     RTEXT           "Static",IDC_SCORE2,292,38,36,13
@@ -412,11 +412,11 @@ BEGIN
     PUSHBUTTON      "OK",IDOK,41,48,50,14,NOT WS_TABSTOP
     PUSHBUTTON      "Cancel",IDCANCEL,93,48,50,14,NOT WS_TABSTOP
     EDITTEXT        IDC_JOINIP,70,18,109,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
-    ICON            IDI_JUBMOO,IDC_STATIC,5,4,20,20
-    LTEXT           "Enter JubMoo+ Dealer 's IP Address",IDC_STATIC,31,5,135,
+    ICON            IDI_JUBMOO,-1,5,4,20,20
+    LTEXT           "Enter JubMoo+ Dealer 's IP Address",-1,31,5,135,
                     11
-    LTEXT           "** For example, 203.149.2.51",IDC_STATIC,63,34,98,9
-    ICON            IDI_ARROWB,IDC_STATIC,47,15,20,20
+    LTEXT           "** For example, 203.149.2.51",-1,63,34,98,9
+    ICON            IDI_ARROWB,-1,47,15,20,20
 END
 
 IDD_FACESELECT DIALOGEX 0, 0, 96, 114
@@ -462,7 +462,7 @@ EXSTYLE WS_EX_RIGHT | WS_EX_RTLREADING | WS_EX_LEFTSCROLLBAR
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     PUSHBUTTON      "OK",IDOK,29,83,82,15,NOT WS_TABSTOP
-    CTEXT           "Picture Preview",IDC_STATIC,43,0,54,9
+    CTEXT           "Picture Preview",-1,43,0,54,9
     CONTROL         "",IDC_BMPPREVIEW,"Static",SS_BITMAP | SS_CENTERIMAGE | 
                     SS_REALSIZEIMAGE | SS_SUNKEN,3,9,135,71
 END

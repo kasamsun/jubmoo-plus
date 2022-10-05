@@ -1,9 +1,9 @@
 #include "resource.h"
 #include "JubmooApp.h"
-#include "GenericWnd.h"
+#include "kswafx/GenericWnd.h"
 #include "Jubmoo.h"
 #include "JubmooWnd.h"
-#include "RegistryKey.h"
+#include "kswafx/RegistryKey.h"
 #include <stdio.h>
 
 #ifndef _MSC_VER
@@ -200,7 +200,7 @@ void C_JubmooApp::CheckJubmooRegistry()
 
 void C_JubmooApp::OpenRegistry()
 {
-    m_RegKey.Open(HKEY_LOCAL_MACHINE,JUBMOO_REGISTRY);
+    m_RegKey.Open(HKEY_CURRENT_USER,JUBMOO_REGISTRY);
 }
 
 void C_JubmooApp::CloseRegistry()

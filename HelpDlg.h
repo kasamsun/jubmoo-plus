@@ -1,10 +1,10 @@
 #ifndef _C_HELPDLG_H_
 #define _C_HELPDLG_H_
 
-#include "Dialog.h"
-#include "MyTempl.h"
+#include "kswafx/Dialog.h"
+#include "kswafx/MyTempl.h"
 
-#include "Tooltip.h"
+#include "kswafx/Tooltip.h"
 
 #include "CardWnd.h"//class C_CardWnd;
 // MyList need to know defined structure

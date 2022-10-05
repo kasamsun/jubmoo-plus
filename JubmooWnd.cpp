@@ -1,10 +1,10 @@
 #include "JubmooWnd.h"
 
 #include <stdio.h>
-#include "DCEx.h"
-#include "CoolButton.h"
-#include "CoolDlg.h"
-#include "GenericClickWnd.h"
+#include "kswafx/DCEx.h"
+#include "kswafx/CoolButton.h"
+#include "kswafx/CoolDlg.h"
+#include "kswafx/GenericClickWnd.h"
 
 #include "resource.h"
 #include "CardNum.h"
@@ -828,7 +828,7 @@ LRESULT C_JubmooWnd::OnPickUpCardTimer()
 									{-CARD_HEIGHT,10},
 									{JUBMOOWND_WIDTH+1,10},
 									{JUBMOOWND_WIDTH+1,360} };
-	static i = 0;
+	static int i = 0;
 
 	if ( m_bPickingUp == 1 )
 	{

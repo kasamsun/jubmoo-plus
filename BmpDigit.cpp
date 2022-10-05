@@ -1,6 +1,6 @@
 #include "BmpDigit.h"
 
-#include "DCEx.h"
+#include "kswafx/DCEx.h"
 
 C_BmpDigit::C_BmpDigit()
 {

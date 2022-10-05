@@ -4,9 +4,9 @@
 #define STARTGAMEWND_WIDTH	320
 #define STARTGAMEWND_HEIGHT	320
 
-#include "GenericWnd.h"
+#include "kswafx/GenericWnd.h"
 #include "Jubmoo.h"
-#include "Tooltip.h"
+#include "kswafx/Tooltip.h"
 
 class C_JubmooWnd;
 class C_CoolButton;

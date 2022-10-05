@@ -7,7 +7,7 @@
 #include "JubmooWnd.h"
 #include "JMComm.h"
 #include "JMKnowledgeBase.h"
-#include "Dialog.h"
+#include "kswafx/Dialog.h"
 #include "JMPing.h"
 
 #include "CommonAI.h"
@@ -524,7 +524,7 @@ int C_Jubmoo::StartTurn(int nTurnNum)
 
 int C_Jubmoo::NextTurn()
 {
-	static nFirstOrder = 0;
+	static int nFirstOrder = 0;
 
     if ( m_nTurnNum == 0 )
     {

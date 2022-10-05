@@ -6,8 +6,8 @@
 
 enum { SINGLE_SIZE_PLAYERWND=1, DOUBLE_SIZE_PLAYERWND=2 };
 
-#include "GenericClickWnd.h"
-#include "Tooltip.h"
+#include "kswafx/GenericClickWnd.h"
+#include "kswafx/Tooltip.h"
 class C_Player;
 class C_MsgPopupWnd;
 

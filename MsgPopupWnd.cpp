@@ -1,5 +1,5 @@
 #include "MsgPopupWnd.h"
-#include "DCEx.h"
+#include "kswafx/DCEx.h"
 #include "resource.h"
 #include <stdio.h>
 

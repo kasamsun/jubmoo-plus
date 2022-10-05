@@ -1,9 +1,9 @@
 #include "EndGameWnd.h"
 
-#include "DCEx.h"
+#include "kswafx/DCEx.h"
 #include "resource.h"
 #include "JubmooWnd.h"
-#include "CoolButton.h"
+#include "kswafx/CoolButton.h"
 #include "Jubmoo.h"
 
 #define PIGDANCE_TIMERID	6001

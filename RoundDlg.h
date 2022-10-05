@@ -1,7 +1,7 @@
 #ifndef _C_ROUNDDLG_H_
 #define _C_ROUNDDLG_H_
 
-#include "Dialog.h"
+#include "kswafx/Dialog.h"
 
 class C_BmpDigit;
 class C_PlayerWnd;

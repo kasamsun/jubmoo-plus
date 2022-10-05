@@ -1,4 +1,4 @@
-#include <MCI.h>
+#include "MCI.h"
 
 BEGIN_HANDLE_MSG(C_MCI,C_GenericWnd)
 	HANDLE_MSG(MM_MCINOTIFY,OnMCINotify)

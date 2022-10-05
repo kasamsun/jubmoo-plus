@@ -1,7 +1,7 @@
 #ifndef _C_JOINDLG_H_
 #define _C_JOINDLG_H_
 
-#include <Dialog.h>
+#include "kswafx/Dialog.h"
 
 class C_JoinDlg : public C_Dialog
 {

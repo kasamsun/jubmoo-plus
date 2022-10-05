@@ -1,7 +1,7 @@
 #ifndef _C_JMComm_H_
 #define _C_JMComm_H_
 
-#include "MyWinsock.h"
+#include "kswafx/MyWinsock.h"
 #include "Jubmoo.h"
 #include <stdio.h>
 

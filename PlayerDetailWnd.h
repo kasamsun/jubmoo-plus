@@ -6,7 +6,7 @@
 
 enum { SHOW_JMPLAYER_NORMAL=0, SHOW_JMPLAYER_INFO=1, SHOW_JMPLAYER_SCOREONHAND=2 };
 
-#include "GenericClickWnd.h"
+#include "kswafx/GenericClickWnd.h"
 class C_BmpDigit;
 class C_PlayerWnd;
 class C_Player;

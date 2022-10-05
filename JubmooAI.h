@@ -12,7 +12,7 @@ public:
 	C_JubmooAI(C_Player * pPlayer);
 	virtual ~C_JubmooAI();
 
-	virtual Discard() = 0;
+	virtual int Discard() = 0;
 
 	C_Player * GetPlayer() { return m_pPlayer; }
 

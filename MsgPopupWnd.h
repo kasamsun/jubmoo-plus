@@ -1,8 +1,8 @@
 #ifndef _C_MSGPOPUPWINDOW_H_
 #define _C_MSGPOPUPWINDOW_H_
 
-#include "GenericClickWnd.h"
-#include "MyTempl.h"
+#include "kswafx/GenericClickWnd.h"
+#include "kswafx/MyTempl.h"
 
 class C_MsgPopupWnd : public C_GenericWnd
 {

@@ -1,4 +1,4 @@
-#include "../include/Control.h"
+#include "Control.h"
 
 C_Control::C_Control()
 {

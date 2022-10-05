@@ -11,7 +11,7 @@ public:
 	C_CommonAI(C_Player * pPlayer);
 	~C_CommonAI();
 
-	Discard();
+	int Discard();
 
 };
 #endif
